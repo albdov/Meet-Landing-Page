@@ -64,7 +64,7 @@ body{
 
 .hero--header{
     font-size: 64px;
-    font-weight: 600;
+    font-weight: 900;
     align-self: center;
     /* display: flex;
     justify-content: center;
@@ -197,8 +197,9 @@ body{
 }
 
 .numbered--two{
-    /* margin-bottom: -80px; */
-    z-index: 4;
+    margin-bottom: -80px;
+    z-index: 4 !important;
+    /* margin-top: -80px; */
 }
 
 .number--two::before{
@@ -224,8 +225,8 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    z-index: -1;
-    margin-top: -80px;
+    z-index: -1000;
+    /* margin-top: -80px; */
 }
 
 .footer{
