@@ -12,6 +12,7 @@
 body{
   max-width: 100%; 
     overflow-x: hidden; 
+    /* width: 90vw !important; */
 }
 
 .nav{
@@ -44,11 +45,13 @@ body{
     display: none;
 }
 
-.hero img{
+/* .hero img{
     height: 300px;
     width: 25vw;
     object-fit: contain;
-}
+} */
+
+
 
 .hero--img--left{
     margin-left: -50px;
@@ -385,6 +388,27 @@ body{
 /* //////////////////////Mobile////////////////////////////// */
 
 @media (max-width: 480px) {
+
+    .hero{
+        width: 60vw;
+    }
+
+    .hero--img--left{
+        /* margin-left: -5px; */
+        
+    }
+    
+    .hero--img--right{
+        /* margin-left: 10vw; */
+        margin-right: -70px;
+    
+    }
+
+    .img{
+        width: 10vw;
+        object-fit: contain;
+    }
+
     .hero--subText{
         width: 80vw;
     }
